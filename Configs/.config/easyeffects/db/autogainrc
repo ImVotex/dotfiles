@@ -1,0 +1,8 @@
+[sie][Autogain#0]
+inputGain=36
+outputGain=36
+reference=0
+
+[soe][Autogain#0]
+outputGain=1.5
+target=-12

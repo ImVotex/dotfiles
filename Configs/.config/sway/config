@@ -1,0 +1,4 @@
+include ~/.config/sway/inputs.conf
+include ~/.config/sway/keybindings.conf
+include ~/.config/sway/autostart.conf
+include ~/.config/sway/looknfeel.conf

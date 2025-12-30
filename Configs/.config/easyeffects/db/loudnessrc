@@ -1,0 +1,8 @@
+[sie][Loudness#0]
+bypass=true
+inputGain=36
+mode=1
+
+[soe][Loudness#0]
+std=1
+volume=4.000000000000002

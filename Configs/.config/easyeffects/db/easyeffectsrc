@@ -1,0 +1,19 @@
+[Presets]
+lastLoadedOutputPreset=Bass Boosted
+
+[StreamInputs]
+inputDevice=alsa_input.pci-0000_0b_00.4.analog-stereo
+visiblePage=pluginsPage
+
+[StreamOutputs]
+blocklist=Sober,WEBRTC VoiceEngine,Chromium,GenshinImpact.exe,HOI4,SDL Application
+mostUsedPresets=Bass Enhancing + Perfect EQ,Bass Boosted,Boosted,Advanced Auto Gain,Perfect EQ
+outputDevice=alsa_output.pci-0000_0b_00.4.analog-surround-51
+plugins=equalizer#0,convolver#0,bass_enhancer#0,crossfeed#0,maximizer#0
+usedPresets=Bass Boosted:8,Bass Enhancing + Perfect EQ:8,Boosted:4,Loudness+Autogain:2,Perfect EQ:2,Advanced Auto Gain:2
+visiblePlugin=equalizer#0
+
+[Window]
+height=1009
+lastLoadedOutputPreset=Bass Enhancing + Perfect EQ
+width=939

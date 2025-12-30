@@ -1,0 +1,6 @@
+@define-color background      #010102;
+@define-color background-alt  #010102;
+@define-color foreground      #e4eefc;
+@define-color selected        #35689e;
+@define-color active          #010102;
+@define-color urgent          #ff4d4d;
