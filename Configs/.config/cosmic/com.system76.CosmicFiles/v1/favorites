@@ -5,5 +5,4 @@
     Music,
     Pictures,
     Videos,
-    Path("/mnt/games/"),
 ]
