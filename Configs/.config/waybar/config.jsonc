@@ -190,6 +190,7 @@
     "exec": "~/.config/waybar/scripts/language.sh",
     "return-type": "plain",
     "format": "󰇧 {}",
+    "on-click": "swaymsg input type:keyboard xkb_switch_layout next",
     "min-length": 4,
     "max-length": 4
   },
