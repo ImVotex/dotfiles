@@ -9,6 +9,8 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Cargo bin
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Set name of the theme to load.
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -61,3 +63,4 @@ alias find="fd"
 alias cat="bat"
 alias cp="xcp"
 alias yay="paru"
+alias ff="fastfetch"
