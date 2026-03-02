@@ -1,3 +1,10 @@
+[sie][Compressor#0]
+attack=5
+release=75
+releaseThreshold=-40
+sidechainMode=1
+threshold=-20
+
 [soe][Compressor#0]
 attack=130
 boostThreshold=-60

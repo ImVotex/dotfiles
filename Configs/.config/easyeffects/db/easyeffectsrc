@@ -1,16 +1,20 @@
 [Presets]
-lastLoadedOutputPreset=Bass Boosted
+lastLoadedInputPreset=Noise Reduction + NPR Masculine Voice
+lastLoadedOutputPreset=Bass Enhancing + Perfect EQ
 
 [StreamInputs]
 inputDevice=alsa_input.pci-0000_0b_00.4.analog-stereo
-visiblePage=pluginsPage
+mostUsedPresets=Noise Reduction + NPR Masculine Voice
+plugins=rnnoise#0,gate#0,deesser#0,compressor#0,equalizer#0,speex#0,limiter#0
+usedPresets=Noise Reduction + NPR Masculine Voice:1
+visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-blocklist=Sober,WEBRTC VoiceEngine,Chromium,GenshinImpact.exe,HOI4,SDL Application
-mostUsedPresets=Bass Enhancing + Perfect EQ,Bass Boosted,Boosted,Advanced Auto Gain,Perfect EQ
+blocklist=Chromium,payday2_win32_release.exe,java
+mostUsedPresets=Bass Enhancing + Perfect EQ,Bass Boosted,Boosted,Perfect EQ,Advanced Auto Gain
 outputDevice=alsa_output.pci-0000_0b_00.4.analog-surround-51
-plugins=equalizer#0,convolver#0,bass_enhancer#0,crossfeed#0,maximizer#0
-usedPresets=Bass Boosted:8,Bass Enhancing + Perfect EQ:8,Boosted:4,Loudness+Autogain:2,Perfect EQ:2,Advanced Auto Gain:2
+plugins=equalizer#0,convolver#0
+usedPresets=Bass Boosted:8,Bass Enhancing + Perfect EQ:9,Boosted:4,Loudness+Autogain:2,Perfect EQ:3,Advanced Auto Gain:2
 visiblePlugin=equalizer#0
 
 [Window]
