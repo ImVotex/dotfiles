@@ -28,10 +28,7 @@ zinit snippet OMZ::lib/completion.zsh
 zinit snippet OMZ::lib/history.zsh
 zinit snippet OMZ::lib/key-bindings.zsh
 
-zinit ice wait lucid
 zinit light zsh-users/zsh-autosuggestions
-
-zinit ice wait lucid
 zinit light zsh-users/zsh-syntax-highlighting
 
 HISTSIZE=10000
