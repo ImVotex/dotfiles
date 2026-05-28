@@ -11,6 +11,13 @@ setopt hist_ignore_dups hist_ignore_space hist_reduce_blanks \
        share_history inc_append_history extended_history
 
 autoload -Uz compinit
+local _zcompdump="${XDG_CACHE_HOME:-$HOME/.cache}/zcompdump"
+if [[ -n ${_zcompdump}(#qN.mh+24) ]]; then
+  compinit -d "$_zcompdump"
+else
+  compinit -C -d "$_zcompdump"
+fi
+
 compinit -d "${XDG_CACHE_HOME:-$HOME/.cache}/zcompdump"
 zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|=*' 'l:|=* r:|=*'
